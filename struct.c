@@ -11,6 +11,8 @@ typedef struct {
 } student2;
 
 int main() {
+    printf("[----- [이지현]  [2023078007] -----]\n");
+
     struct student1 st1 = {'A', 100, 'A'};
     printf("st1.lastName = %c\n", st1.lastName); 
     printf("st1.studentId = %d\n", st1.studentId); 
@@ -34,4 +36,4 @@ int main() {
     return 0; 
     }
 
-    //C 언어에서는 구조체를 직접 비교하거나 연산할 수 없다. 구조체의 각 필드를 개별적으로 비교하거나 연산해야 한다.
+    //구조체를 직접 비교하거나 연산할 수 없으므로 구조체의 각 필드를 개별적으로 비교하거나 연산해야 한다.
